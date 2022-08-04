@@ -1,1 +1,6 @@
-# Rabbit-Turtle-Race
+# Rabbit Turtle Race
+
+Turtle and rabbit two competitors will start the race from the first square of the 20-square track. Each square represents the places where the competitors can be found during the race. The first to reach or pass the twentieth square wins the race. Race on slippery ground
+As it will happen, the competitors may slip from time to time. It will be determined which move the contestants will make by generating a random number once for each move. The figure below shows which movement with what percentage of probability the contestants performed. If one of the contestants slips back from square 1 (the first square), take him back to square 1. (Do not use negative squares.) For example, the number generated for the turtle is i; If 0<=i<=4 (50% probability) it will perform “fast walking” movement, if 5<=i<=6 it will perform “sliding” movement, if 7<=i<=9 it will perform slow walking movement. The places of the rabbit and turtle on the 20-track path should be indicated by the letters R and T every second. If the two fall on the same square, it will print OUCH.
+
+![rabbit-turtle race](https://user-images.githubusercontent.com/90213645/182842762-2e5be2f1-649c-4bd6-bac4-704d6348f0bd.png)
